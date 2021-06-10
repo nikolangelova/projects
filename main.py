@@ -254,3 +254,6 @@ plt.axis("off")
 plt.show()
 
 plt.savefig("/Users/nikolangelova/PycharmProjects/Wordcloud.png", format="png")
+
+# save df for analysis in Excel
+df.to_csv('/Users/nikolangelova/PycharmProjects/pythonProject1/Comments.csv', index = False)
